@@ -28,13 +28,13 @@ const Home: NextPage = () => {
         <TravelTypes src="images/more.svg" alt="More" title="e mais..." />
       </Grid>
       <Center height="50px">
-        <Divider maxWidth="90px" borderWidth="2px" borderColor="#47585B" />
+        <Divider maxWidth="90px" borderWidth="2px" borderColor="dark.text" />
       </Center>
       <Flex flexDirection="column" justify="center" align="center">
-        <Text fontSize="36px" fontWeight="500" color="#47585B">
+        <Text fontSize="36px" fontWeight="500" color="dark.text">
           Vamos nessa?
         </Text>
-        <Text fontSize="36px" fontWeight="500" color="#47585B">
+        <Text fontSize="36px" fontWeight="500" color="dark.text">
           Então escolha seu continente
         </Text>
       </Flex>

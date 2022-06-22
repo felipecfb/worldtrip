@@ -1,13 +1,16 @@
-import { Swiper as SwiperContainer, SwiperSlide } from "swiper/react";
+import { Swiper as SwiperContainer, SwiperSlide, useSwiper } from "swiper/react";
 import { A11y, Navigation, Pagination, Scrollbar } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+
 import { Banner } from "../Banner";
 import { Flex } from "@chakra-ui/react";
 
 export function Swiper() {
+  const swiper = useSwiper();
+
   return (
     <Flex maxWidth="1440px" mx="auto" py="8">
       <SwiperContainer
