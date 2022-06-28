@@ -9,9 +9,9 @@ export function Header({ showBackIcon }: HeaderProps) {
     <>
       <Flex w="100" bg="#fff" p="6" alignItems="center" justify="center">
         {showBackIcon && (
-          <Image src="images/backButton.svg" alt="Back button" />
+          <Image src="assets/images/backButton.svg" alt="Back button" />
         )}
-        <Image src="images/logo.svg" alt="Logo" />
+        <Image src="assets/images/logo.svg" alt="Logo" />
       </Flex>
     </>
   );
