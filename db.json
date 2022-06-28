@@ -1,77 +1,77 @@
 {
-    "continents": [
-      {
-        "id": 1,
-        "slug": "europa",
-        "title": "Europa",
-        "subtitle": "O continente mais antigo",
-        "info": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-        "countries": 50,
-        "languages": 60,
-        "imageBanner": "http://localhost:3000/assets/images/europe.svg",
-        "imageSwiper": "http://localhost:3000/assets/images/europeSwiper.png",
-        "cities": [
-            {
-                "id": 1,
-                "title": "Lisboa",
-                "country": "Reino Unido",
-                "image": "londres.png",
-                "flag": "reinoUnido.png"
-            },
-            {
-                "id": 2,
-                "title": "Lisboa",
-                "country": "Reino Unido",
-                "image": "londres.png",
-                "flag": "reinoUnido.png"
-            },
-            {
-                "id": 3,
-                "title": "Lisboa",
-                "country": "Reino Unido",
-                "image": "londres.png",
-                "flag": "reinoUnido.png"
-            },
-            {
-                "id": 4,
-                "title": "Lisboa",
-                "country": "Reino Unido",
-                "image": "londres.png",
-                "flag": "reinoUnido.png"
-            },
-            {
-                "id": 5,
-                "title": "Lisboa",
-                "country": "Reino Unido",
-                "image": "londres.png",
-                "flag": "reinoUnido.png"
-            }
-        ]
-      },
-      {
-        "id": 2,
-        "slug": "asia",
-        "title": "Ásia",
-        "subtitle": "O continente mais extenso",
-        "info": "A Ásia é o maior dos continentes terrestres, localizada totalmente no hemisfério oriental, em maior parte no hemisfério setentrional e com uma pequena porção de terras no hemisfério austral. Existem, ao todo, 50 países asiáticos.Além de possuir a maior área territorial (com 44.579.000 km²), abriga também a maior parte da população do planeta, com muitas de suas regiões alcançando as mais elevadas densidades demográficas já registradas. Se o continente asiático corresponde a um terço das terras emersas do planeta, seus habitantes correspondem a 61% da população mundial, com cerca de 4,299 bilhões de pessoas.",
-        "countries": 30,
-        "languages": 20,
-        "imageBanner": "http://localhost:3000/assets/images/asia.png",
-        "imageSwiper": "http://localhost:3000/assets/images/europeSwiper.png"
-      },
-      {
-        "id": 3,
-        "slug": "north_america",
-        "title": "América do Norte",
-        "subtitle": "O continente líder do mundo",
-        "info": "A América do Norte é o continente mais poderoso.",
-        "countries": 30,
-        "languages": 20,
-        "imageBanner": "http://localhost:3000/assets/images/northAmerica.png",
-        "imageSwiper": "http://localhost:3000/assets/images/europeSwiper.png"
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+  "continents": [
+    {
+      "id": 1,
+      "slug": "europa",
+      "title": "Europa",
+      "subtitle": "O continente mais antigo",
+      "info": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "countries": 50,
+      "languages": 60,
+      "imageBanner": "http://localhost:3000/assets/images/europe.svg",
+      "imageSwiper": "http://localhost:3000/assets/images/europeSwiper.png"
+    },
+    {
+      "id": 2,
+      "slug": "asia",
+      "title": "Ásia",
+      "subtitle": "O continente mais extenso",
+      "info": "A Ásia é o maior dos continentes terrestres, localizada totalmente no hemisfério oriental, em maior parte no hemisfério setentrional e com uma pequena porção de terras no hemisfério austral. Existem, ao todo, 50 países asiáticos.Além de possuir a maior área territorial (com 44.579.000 km²), abriga também a maior parte da população do planeta, com muitas de suas regiões alcançando as mais elevadas densidades demográficas já registradas. Se o continente asiático corresponde a um terço das terras emersas do planeta, seus habitantes correspondem a 61% da população mundial, com cerca de 4,299 bilhões de pessoas.",
+      "countries": 30,
+      "languages": 20,
+      "imageBanner": "http://localhost:3000/assets/images/asia.png",
+      "imageSwiper": "http://localhost:3000/assets/images/europeSwiper.png"
+    },
+    {
+      "id": 3,
+      "slug": "north_america",
+      "title": "América do Norte",
+      "subtitle": "O continente líder do mundo",
+      "info": "A América do Norte é o continente mais poderoso.",
+      "countries": 30,
+      "languages": 20,
+      "imageBanner": "http://localhost:3000/assets/images/northAmerica.png",
+      "imageSwiper": "http://localhost:3000/assets/images/europeSwiper.png"
     }
+  ],
+  "cities": [
+    {
+      "continentId": 1,
+      "title": "Lisboa",
+      "country": "Reino Unido",
+      "image": "londres.png",
+      "flag": "reinoUnido.png"
+    },
+    {
+      "continentId": 1,
+      "title": "Lisboa",
+      "country": "Reino Unido",
+      "image": "londres.png",
+      "flag": "reinoUnido.png"
+    },
+    {
+      "continentId": 1,
+      "title": "Lisboa",
+      "country": "Reino Unido",
+      "image": "londres.png",
+      "flag": "reinoUnido.png"
+    },
+    {
+      "continentId": 1,
+      "title": "Lisboa",
+      "country": "Reino Unido",
+      "image": "londres.png",
+      "flag": "reinoUnido.png"
+    },
+    {
+      "continentId": 1,
+      "title": "Lisboa",
+      "country": "Reino Unido",
+      "image": "londres.png",
+      "flag": "reinoUnido.png"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
